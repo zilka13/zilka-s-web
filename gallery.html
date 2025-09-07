@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zilka's Gallery</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif; /* font Times New Roman */
+      background-color: beige; /* warna background */
+      padding: 20px;
+      margin: 0;
+    }
+    h1 {
+      text-align: center;  /* judul di tengah */
+      margin-bottom: 40px;
+      font-size: 40px;
+    }
+    .music {
+      margin-bottom: 40px;
+    }
+    .music audio {
+      display: block;
+      margin: 0 auto;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center; /* foto rata tengah */
+      gap: 30px; /* jarak antar foto */
+      flex-wrap: wrap; /* kalau layar kecil, otomatis turun ke bawah */
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      width: 350px;
+      text-align: center; /* isi kartu rata tengah */
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card p {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    .card p desc{
+      font-size: 14px;
+      color: #555;
+      margin-top: 5px;
+      line-height: 1.4;
+      text-align: center;
+    }
+    .note {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+      color: #555;
+      font-style: italic;
+    }
+     .back-home {
+      margin-top: 25px; /* jarak dari galeri */
+      font-size: 16px;
+    }
+    .back-home a {
+      text-decoration: none;
+      color: darkblue;
+      font-weight: bold;
+    }
+    .back-home a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="margin-bottom: 40px;">Zilka's Gallery</h1>
+
+<div class="music" style="margin: 20px 0;">
+  <audio controls> 
+    <source src="thebeatles1.mp3.mp3" type="audio/mpeg">
+  </audio>
+  <p class="note">Here they are! some pictures that I took as samples of my hobby.</p>
+</div>
+
+<div class="gallery" style="margin-top: 40px;">
+  <div class="card">
+    <img src="pict1.jpg.jpg" alt="LRT Dukuh Atas">
+    <p>📍 LRT, Dukuh Atas</p>
+    <p class="desc">"Sunset vibes in the middle of Jakarta hustle. Foto ini diambil when I was going for a night walk around Jakarta :p"</p>
+  </div>
+  <div class="card">
+    <img src="pict2.jpg.jpg" alt="LRT Cikunir 1">
+    <p>📍 LRT, Cikunir 1</p>
+    <p class="desc">"Took this shot while waiting for the Gojek, haha. That day, the sky was kinda gloomy, tapi fotonya malah jadi aesthetic dengan sedikit percikan sunset disana"</p>
+  </div>
+  <div class="card">
+    <img src="pict3.jpg.jpg" alt="SMAN 1 Bekasi">
+    <p>📍 SMAN 1 Bekasi</p>
+    <p class="desc"> "High School! foto ini diambil saat jam 6.00 AM, saat aku berjalan menuju kelasku"</p>
+  </div>
+  <div class="card">
+    <img src="pict4.jpg.jpg" alt="Foto 4">
+    <p>📍 Aula SMAN 1 Bekasi</p>
+    <p class="desc">"Friday as usual, 12.30 pm after Keputrian"</p>
+  </div>
+  <div class="card">
+    <img src="pict5.jpg.jpg" alt="Foto 5">
+    <p>📍 Lap. Badminton</p>
+    <p class="desc">"This picture was also taken on a Friday tapi di minggu yang berbeda. Jum"at itu, kelasku mengadakan pelajaran olahraga diluar sekolah, di lapangan badminton dekat sekolah. Sangat seru!"</p>
+  </div>
+  <div class="card">
+    <img src="pict6.jpg.jpg" alt="Foto 6">
+    <p>📍 Kelas XI A2 2</p>
+    <p class="desc">"This picture was taken when I was in 11th grade, it is still and will be an unforgettable memory even teman dikelas 12 sekarang adalah mereka lagi ><"</p>
+  </div>
+
+   <!-- Tombol Back to Home -->
+  <div class="back-home">
+    <a href="html.html"> Back to Homepage ꫂ❁</a>
+  </div>
+</body>
+</html>
